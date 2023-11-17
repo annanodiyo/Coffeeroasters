@@ -1,13 +1,17 @@
 <div class="sticky top-0 z-50 px-10 py-4 mb-10">
   <nav class="flex justify-between items-center mx-auto">
     <div class="flex space-x-4 items-center">
-      <img src="your-image-path.jpg" alt="coffee icons" class="h-6 w-6" />
-      <a href="#" class="hover:text-brown-500 font-normal">Coffeeroasters</a>
+      <a href="#" class="hover:text-brown-500 font-normal">
+        <img src="/assets/images/logo.svg" alt="coffee icons" width="150px"
+      /></a>
     </div>
-    <div class="flex space-x-4">
-      <a href="#" class="hover:text-brown-500 font-normal">HOME</a>
-      <a href="#" class="hover:text-brown-500 font-normal">ABOUT US</a>
-      <a href="#" class="hover:text-brown-500 font-normal">CREATE YOUR PLAN</a>
+    <div class="flex space-x-4 text-gray-500">
+      <a routerLink="/" class="hover:text-brown-500 font-bold">HOME</a>
+      <a routerLink="/about" class="hover:text-brown-500 font-bold">ABOUT US</a>
+      <a routerLink="/plan" class="hover:text-brown-500 font-bold"
+        >CREATE YOUR PLAN</a
+      >
     </div>
   </nav>
 </div>
+<!-- <app-footer></app-footer> -->

@@ -1,0 +1,21 @@
+.custom-counter {
+    list-style: none;
+    counter-reset: custom-counter;
+    padding-left: 2em;
+
+}
+
+.custom-counter li {
+    counter-increment: custom-counter;
+}
+
+.custom-counter li::before {
+    content: counter(custom-counter, decimal-leading-zero) " ";
+
+}
+
+.card:hover {
+    background-color: #0e8684;
+    color: white;
+
+}

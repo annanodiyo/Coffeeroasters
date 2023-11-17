@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingComponent } from './landing/landing.component';
 import { FooterComponent } from './footer/footer.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { CreatePlanComponent } from './create-plan/create-plan.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LandingComponent,
-    FooterComponent
+    FooterComponent,
+    NotfoundComponent,
+    AboutUsComponent,
+    CreatePlanComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
