@@ -19,3 +19,8 @@
     color: white;
 
 }
+
+.card {
+    margin-right: 20px;
+    max-width: 30%;
+}
