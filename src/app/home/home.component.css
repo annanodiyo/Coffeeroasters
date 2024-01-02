@@ -1,3 +1,8 @@
 .create:hover{
     transform:scale(1.1)
 }
+.collection{
+    background: -webkit-linear-gradient( #333,#eee);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
